@@ -12,13 +12,16 @@ import { increment } from '@angular/fire/firestore';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-  page: string = 'Página Inicial';
-  valor: number = 0;
-   increment(){
-    this.valor++;
-   }
-   decrement
+  pokemon:any = {
+
+    nome: null,
+    poder: null,
+
+  };
   constructor( ){ }
 
+  enviar() {
+    
+  }
 }
 

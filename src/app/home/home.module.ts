@@ -14,7 +14,7 @@ import { RouterLink } from '@angular/router';
     FormsModule,
     IonicModule,
     HomePageRoutingModule,
-    RouterLink
+    RouterLink,
   ],
   declarations: [HomePage]
 })

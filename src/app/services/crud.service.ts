@@ -34,6 +34,9 @@ export class CrudService {
             this._message.show('Não foi possível salvar'); 
             return false;
         }
+        enviar ({
+            this.crudService
+        })
 
         this.isLoading = true;
         const dbInstance = collection(this.firestore, remoteCollectionName);
